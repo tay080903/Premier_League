@@ -1,8 +1,8 @@
 const contentArea = document.getElementById('main-content');
 const navButtons = document.querySelectorAll('.nav-btn');
 
-// API Base URL (adjust if port changes)
-const API_URL = 'http://127.0.0.1:8000/api';
+// API Base URL (Relative path for Vercel deployment)
+const API_URL = '/api';
 
 const posMap = {
     'Forward': '공격수',
