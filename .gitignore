@@ -1,5 +1,4 @@
 __pycache__/
 *.pyc
-backend/app.db
 backend/out.json
 .DS_Store
